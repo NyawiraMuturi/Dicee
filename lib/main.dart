@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(
+    MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
@@ -22,14 +23,16 @@ class DicePage extends StatelessWidget {
     return Row(
       children: <Widget>[
         Expanded(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
+          child: FlatButton(
+            onPressed: () {},
             child: Image.asset('images/dice1.png'),
           ),
         ),
         Expanded(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
+          child: FlatButton(
+            onPressed: (){
+
+            },
             child: Image.asset('images/dice2.png'),
           ),
         ),
